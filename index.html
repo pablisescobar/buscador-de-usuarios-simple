@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <script src="./index.js"></script>
+    <title>Buscar usuario</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="input-user">
+        <input
+          type="text"
+          id="user"
+          placeholder="type username..."
+          onchange="searchUser(event)"
+        />
+      </div>
+      <div class="button-user">
+        <button onclick="clickUser()">Buscar usuario</button>
+      </div>
+      <div class="span-user">
+        <span id="user-verification"></span>
+      </div>
+    </div>
+  </body>
+</html>
